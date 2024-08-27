@@ -1,9 +1,9 @@
-title: Nighthawk Pages 
-description: "Class of 2025"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+title: Arya's Blog 
+description: "Class of 2027"
+owner_name: Arya Savlani
+github_username: aryas1234567
+github_repo: "arya" 
+baseurl: "/arya"
 future: true
 remote_theme: jekyll/minima
 minima:
