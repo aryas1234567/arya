@@ -77,7 +77,7 @@ hide: true
 <table>
     <tr>
         <td width = "150"><img src="{{site.baseurl}}/images/india.png" height="70" title="Pair" alt=""></td>
-        <td><a href="index_submenu.html">Gaming Blog</a></td>
+        <td><a href="index_submenu.html">Valorant Blog(MiniProject)</a></td>
         <td><a href="{{site.baseurl}}/pair/habits">Future Submenu 2</a></td>
         <td><a href="{{site.baseurl}}/pair/habits">Future Submenu 3</a></td>
     </tr>
