@@ -1,18 +1,18 @@
-title: Arya's Blog 
+title: Arya's Website
 description: "Class of 2027"
-owner_name: Arya Savlani
+owner_name: Arya P Savlani
 github_username: aryas1234567
 github_repo: "arya" 
-baseurl: "/arya"
+baseurl: "/student_2027"
 future: true
 remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
-    - { platform: github, user_url: "https://github.com/nighthawkcoders"}
+    - { platform: github, user_url: "https://github.com/aryas1234567"}
     - { platform: x, user_url: "https://x.com/NighthawkCoding/" }
     - { platform: youtube, user_url: "https://www.youtube.com/@nighthawkcodingsociety2868" } 
-# remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
@@ -23,4 +23,9 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
+  - navigation/toolsetup.md
   - README4YML.md
+  
+# @import "minima/dracula/_dracula";  
+
+# ![describe image](link to image)

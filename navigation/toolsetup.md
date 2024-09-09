@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: Tool Setup
+permalink: /toolsetup/
 ---
-Hi, my name is Arya Savlani and I am a sophomore at Del Norte. I enjoy playing sports, hanging out with my friends, and watching movies. I have 2 loving parents and an older sister.
+Hi, my name is Arya P. Savlani and I am a sophomore at Del Norte. I enjoy playing sports, hanging out with my friends, and watching movies. I have 2 loving parents and an older sister.
 <br>
 
 Learn more about me...
