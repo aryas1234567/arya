@@ -1,13 +1,12 @@
 ---
 layout: base
-title: Arya'ss Website
+title: Arya's Website
 description: Welcome.
 hide: true
 ---
-<h1>Welcome to my Website...</h1>
+<h1>👋 Welcome to my Website...</h1>
 <br>
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-
 <div class="sky">
 	<div class="scorebar">
 		<style>

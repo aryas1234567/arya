@@ -7,6 +7,29 @@ Hi, my name is Arya Savlani and I am a sophomore at Del Norte. I enjoy playing s
 <br>
 
 Learn more about me...
+
+<button onclick="showRandomFact()">Click Here</button>
+
+<p id="fact"></p>
+
+<script>
+  const MeFacts = [
+    "My favorite color is purple.",
+    "I love Mexican food, especially street tacos.",
+    "I think pineapples are good on pizza.",
+    "My favorite video game at the moment is Minecraft.",
+    "My parents are both in computer science fields.",
+    "I love watching movies, my favorite movie is Django Unchained, watch it!"
+  ];
+
+  // Show random fact
+  function showRandomFact() {
+    const randomIndex = Math.floor(Math.random() * MeFacts.length);
+    const randomFact = MeFacts[randomIndex];
+    document.getElementById('fact').textContent = randomFact;
+  }
+</script>
+
 <h3>Things I love:</h3>
 
 <ul>

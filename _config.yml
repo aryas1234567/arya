@@ -3,7 +3,7 @@ description: "Class of 2027"
 owner_name: Arya P Savlani
 github_username: aryas1234567
 github_repo: "arya" 
-baseurl: "/student_2027"
+baseurl: "/aryaswebsite"
 future: true
 remote_theme: jekyll/minima
 minima:
