@@ -78,7 +78,7 @@ hide: true
         <td width = "150"><img src="{{site.baseurl}}/images/india.png" height="70" title="Pair" alt=""></td>
         <td><a href="index_submenu.html">Valorant Blog(MiniProject)</a></td>
         <td><a href="snake.html">Snake Game</a></td>
-        <td><a href="{{site.baseurl}}/pair/habits">Future Submenu 3</a></td>
+        <td><a href="cookieclicker.html">Cookie Clicker</a></td>
     </tr>
 </table>
 

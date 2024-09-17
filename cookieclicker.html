@@ -1,0 +1,121 @@
+---
+permalink: /cookieclicker.html
+layout: base
+title: Arya's Website
+description: Welcome.
+hide: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #cookie {
+            width: 400px;
+            height: 200px;
+            background: url('{{site.baseurl}}/images/cookie.png') no-repeat center center;
+            background-size: contain;
+            margin: 10px auto;
+            cursor: pointer;
+        }
+        .upgrade {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 300px;
+            display: inline-block;
+        }
+        .upgrade:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        #upgrades {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookie Clicker Game</h1>
+    <div id="cookie"></div>
+    <p>Cookies: <span id="cookieCount">0</span></p>
+    
+    <div id="upgrades">
+        <button class="upgrade" id="upgrade1" onclick="buyUpgrade(1)">Upgrade 1 (+1 per click) - Cost: <span id="upgrade1Cost">10</span></button>
+        <button class="upgrade" id="upgrade2" onclick="buyUpgrade(2)">Upgrade 2 (+2 per click) - Cost: <span id="upgrade2Cost">50</span></button>
+        <button class="upgrade" id="upgrade3" onclick="buyUpgrade(3)">Upgrade 3 (Autoclick: +1 per second) - Cost: <span id="upgrade3Cost">100</span></button>
+        <button class="upgrade" id="upgrade4" onclick="buyUpgrade(4)">Upgrade 4 (Autoclick: +5 per second) - Cost: <span id="upgrade4Cost">500</span></button>
+        <button class="upgrade" id="upgrade5" onclick="buyUpgrade(5)">Upgrade 5 (Double Cookies per Click) - Cost: <span id="upgrade5Cost">1000</span></button>
+        <button class="upgrade" id="upgrade6" onclick="buyUpgrade(6)">Upgrade 6 (Double Click and Autoclick) - Cost: <span id="upgrade6Cost">2000</span></button>
+    </div>
+
+    <script>
+        let cookies = 0;
+        let clickValue = 1;
+        let autoClickerValue = 0;
+
+        let upgrade1Cost = 10;
+        let upgrade2Cost = 50;
+        let upgrade3Cost = 100;
+        let upgrade4Cost = 500;
+        let upgrade5Cost = 1000;
+        let upgrade6Cost = 2000;
+
+        document.getElementById('cookie').addEventListener('click', function () {
+            cookies += clickValue;
+            document.getElementById('cookieCount').textContent = cookies;
+        });
+
+        function buyUpgrade(upgrade) {
+            if (upgrade === 1 && cookies >= upgrade1Cost) {
+                cookies -= upgrade1Cost;
+                clickValue += 1;
+                upgrade1Cost *= 2;
+                document.getElementById('upgrade1Cost').textContent = upgrade1Cost;
+            } else if (upgrade === 2 && cookies >= upgrade2Cost) {
+                cookies -= upgrade2Cost;
+                clickValue += 2;
+                upgrade2Cost *= 2;
+                document.getElementById('upgrade2Cost').textContent = upgrade2Cost;
+            } else if (upgrade === 3 && cookies >= upgrade3Cost) {
+                cookies -= upgrade3Cost;
+                autoClickerValue += 1;
+                upgrade3Cost *= 2;
+                document.getElementById('upgrade3Cost').textContent = upgrade3Cost;
+                startAutoClicker();
+            } else if (upgrade === 4 && cookies >= upgrade4Cost) {
+                cookies -= upgrade4Cost;
+                autoClickerValue += 5;
+                upgrade4Cost *= 2;
+                document.getElementById('upgrade4Cost').textContent = upgrade4Cost;
+            } else if (upgrade === 5 && cookies >= upgrade5Cost) {
+                cookies -= upgrade5Cost;
+                clickValue *= 2;
+                upgrade5Cost *= 2;
+                document.getElementById('upgrade5Cost').textContent = upgrade5Cost;
+            } else if (upgrade === 6 && cookies >= upgrade6Cost) {
+                cookies -= upgrade6Cost;
+                clickValue *= 2;
+                autoClickerValue *= 2;
+                upgrade6Cost *= 2;
+                document.getElementById('upgrade6Cost').textContent = upgrade6Cost;
+            }
+            document.getElementById('cookieCount').textContent = cookies;
+        }
+
+        function startAutoClicker() {
+            setInterval(function () {
+                cookies += autoClickerValue;
+                document.getElementById('cookieCount').textContent = cookies;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
