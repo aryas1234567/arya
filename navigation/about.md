@@ -14,7 +14,7 @@ Learn more about me...
 
 <script>
   const MeFacts = [
-    "My favorite color is purple.",
+    "My favorite color is dark purple.",
     "I love Mexican food, especially street tacos.",
     "I think pineapples are good on pizza.",
     "My favorite video game at the moment is Minecraft.",
