@@ -56,6 +56,8 @@ hide: true
         <button class="upgrade" id="upgrade6" onclick="buyUpgrade(6)">Upgrade 6 (Double Click and Autoclick) - Cost: <span id="upgrade6Cost">2000</span></button>
     </div>
 
+    <audio id="clickSound" src='{{site.baseurl}}/images/click.mp3'></audio>
+
     <script>
         let cookies = 0;
         let clickValue = 1;
@@ -69,8 +71,14 @@ hide: true
         let upgrade6Cost = 2000;
 
         document.getElementById('cookie').addEventListener('click', function () {
+            // Increment cookies by click value
             cookies += clickValue;
             document.getElementById('cookieCount').textContent = cookies;
+            
+            // Reset and play sound on each click
+            const clickSound = document.getElementById('clickSound');
+            clickSound.currentTime = 0;  // Reset audio to the start
+            clickSound.play();           // Play the sound
         });
 
         function buyUpgrade(upgrade) {
