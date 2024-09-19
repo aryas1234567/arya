@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: About Me
 permalink: /about/
+toc: True
+comments: True
 ---
 Hi, my name is Arya Savlani and I am a sophomore at Del Norte. I enjoy playing sports, hanging out with my friends, and watching movies. I have 2 loving parents and an older sister.
 <br>
@@ -30,7 +32,8 @@ Learn more about me...
   }
 </script>
 
-<h3>Things I love:</h3>
+    
+<h2>Things I love:</h2>
 
 <ul>
   <li><img src="{{site.baseurl}}/images/tenn.jpg" alt="Tennis" width="300" height="300"><p style ="font-size:16px;display:inline-block">&nbsp; Playing Tennis</p></li>

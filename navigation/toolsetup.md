@@ -20,5 +20,8 @@ I began to run into a problem with my commit. My commits kept failing. I looked 
 <h3>Week 4:</h3>
 I began to create more subpages to complete the hacks. The first thing I added was a cookie clicker game. I used javascript and many buttons to complete this. I also added a sound effect on click of the cookie. The next thing I added was a snake game using javascript. I experimented with chatGPT and asked it to write me acode for snake, and it worked well. 
 
+<h3>Week 5:</h3>
+I started to add different elements to my games. I added a random chance to get a golden apple in my snake game, which adds an extra life to your snake, as well as a live counter for the game. I also added a calculator similar to the google calaculator, which has a history as well.
+
 
 
