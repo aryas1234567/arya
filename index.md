@@ -75,12 +75,26 @@ hide: true
 
 <table>
     <tr>
-        <td width = "150"><img src="{{site.baseurl}}/images/india.png" height="70" title="Pair" alt=""></td>
+        <td width="150">
+            <img src="{{site.baseurl}}/images/india.png" height="70" title="Pair" alt="" onclick="playAudio()">
+        </td>
         <td><a href="index_submenu.html">Valorant Blog(MiniProject)</a></td>
         <td><a href="snake.html">Snake Game</a></td>
         <td><a href="cookieclicker.html">Cookie Clicker</a></td>
+        <td><a href="calculator.html">Calculator</a></td>
     </tr>
 </table>
+
+
+<audio id="flagSound" src="{{site.baseurl}}/images/india.mp3"></audio>
+
+<script>
+    function playAudio() {
+        const audio = document.getElementById('flagSound');
+        audio.currentTime = 0;  // Reset audio to the start
+        audio.play();           // Play the sound
+    }
+</script>
 
 
 
