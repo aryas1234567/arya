@@ -116,6 +116,10 @@ hide: true
         <td><a href="cookieclicker.html">Cookie Clicker</a></td>
         <td><a href="calculator.html">Calculator</a></td>
         <td><a href= "http://127.0.0.1:4100/arya/itunes/">Itunes</a></td>
+        <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.1_3.4hacks.ipynb">3.1 and 3.4 Hacks</a></td>
+
+
+
     </tr>
 </table>
 

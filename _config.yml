@@ -25,6 +25,9 @@ header_pages:
   - navigation/about.md
   - navigation/toolsetup.md
   - README4YML.md
+include:
+  - _notebooks
+
   
 # @import "minima/dracula/_dracula";  
 
