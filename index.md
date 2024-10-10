@@ -117,9 +117,10 @@ hide: true
         <td><a href="calculator.html">Calculator</a></td>
         <td><a href= "http://127.0.0.1:4100/arya/itunes/">Itunes</a></td>
         <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.1_3.4hacks.ipynb">3.1 and 3.4 Hacks</a></td>
+        <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3_2hacks.ipynb">3.2 Hacks</a></td>
+        <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.6_3.7hacks.ipynb">3.6 and 3.7 Hacks</a></td>
 
-
-
+        
     </tr>
 </table>
 
