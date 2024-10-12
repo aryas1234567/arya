@@ -119,6 +119,8 @@ hide: true
         <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.1_3.4hacks.ipynb">3.1 and 3.4 Hacks</a></td>
         <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3_2hacks.ipynb">3.2 Hacks</a></td>
         <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.6_3.7hacks.ipynb">3.6 and 3.7 Hacks</a></td>
+        <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.10hacks.ipynb">3.10 Hacks</a></td>
+        <td><a href="{{site.baseurl}}/_notebooks/2024-10-07-3.3_3.5hacks.ipynb">3.3 and 3.5 Hacks</a></td>
 
         
     </tr>
