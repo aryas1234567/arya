@@ -105,13 +105,16 @@ hide: true
 </html>
 
 <td>
-  <a href="personalblog.html">
-    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;">
+  <a href="personalblog.html" style="text-decoration: none;">
+    <button style="background-color: #6200ea; color: white; padding: 12px 24px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease; font-family: Arial, sans-serif; font-weight: bold;">
       Visit My Sprint 2 Blog
     </button>
   </a>
 </td>
 
+
+
+<br>
 
 
 <table>
